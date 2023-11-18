@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Taskbar.css'; // Make sure this path is correct
-import leftToolbarImage from '../assets/toolbar_left.png'; // Path to the left toolbar default image
-import leftToolbarClickedImage from '../assets/toolbar_left_clicked.bmp'; // Path to the clicked image
-import rightToolbarImage from '../assets/toolbar_right.png'; // Path to the right toolbar default image
-import rightToolbarClickedImage from '../assets/toolbar_right_clicked.bmp'; // Path to the clicked image
+import leftToolbarImage from '../assets/toolbar_left-0000.png'; // Path to the left toolbar default image
+import leftToolbarClickedImage from '../assets/toolbar_left_clicked-0000.png'; // Path to the clicked image
+import rightToolbarImage from '../assets/toolbar_right-0000.png'; // Path to the right toolbar default image
+import rightToolbarClickedImage from '../assets/toolbar_right_clicked-0000.png'; // Path to the clicked image
 import toolbarMid from '../assets/toolbar_mid.bmp'; // Path to the middle toolbar image
 import NewClock from './NewClock';
 import TaskbarCenter from './TaskbarCenter';
