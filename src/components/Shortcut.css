@@ -16,7 +16,7 @@
     color: black;
     padding: 0px;
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(255, 255, 255, .8);
 }
 
 .drag-handle-shortcut:active {
@@ -31,7 +31,7 @@
 /* New styles for dragging state */
 .dragging img {
     opacity: 0.5; /* Dim the image */
-    background-color: rgb(0, 0, 0); /* Black with 50% opacity */
+    background-color: rgb(0, 0, 0, .8); /* Black with 50% opacity */
     pointer-events: none; /* Ignore pointer events */
 }
 
@@ -40,5 +40,5 @@
     margin: 0px;
     font-size: 12px;
     padding: 0px;
-    background-color: rgba(0, 0, 0, 0.749);
+    background-color: rgba(0, 0, 0, 0.8);
 }
