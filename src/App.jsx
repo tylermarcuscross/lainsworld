@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import Desktop from './components/Desktop.jsx';
+import DesktopContainer from './components/DesktopContainer.jsx';
 
 function App() {
   return (
-    <Desktop></Desktop>
+    <DesktopContainer></DesktopContainer>
   );
 }
 

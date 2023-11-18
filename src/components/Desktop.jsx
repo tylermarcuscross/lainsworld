@@ -12,6 +12,7 @@ function Desktop() {
     recyclingBin: true,
     document: true,
     welcome: true,
+    store: true,
   });
   
   const toggleWindow = (windowName) => {
@@ -28,6 +29,11 @@ function Desktop() {
         </Window>
       )}
        <Shortcut
+        iconImage= {binImage}
+        iconLabel="Recycle Bin"
+        onDblClick={() => toggleWindow('recyclingBin')}
+      />
+      <Shortcut
         iconImage= {binImage}
         iconLabel="Recycle Bin"
         onDblClick={() => toggleWindow('recyclingBin')}

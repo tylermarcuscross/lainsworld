@@ -1,0 +1,10 @@
+.DesktopContainer {
+    width: 2100px;
+    height: 1500px;
+    position: relative;
+    background-image: url(../assets/lainsocean.png);
+}.Desktop {
+    top: 350px; 
+    right: 312px;
+    /* Add other styles such as background, etc. */
+} 
