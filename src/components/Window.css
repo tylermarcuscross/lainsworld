@@ -1,0 +1,52 @@
+.window {
+    border: 2px solid black;
+    background-color: white;
+    width: 300px; /* Adjust as needed */
+    position: relative;
+}
+
+.drag-handle-window {
+    background-color: rgb(200, 193, 193);
+    color: white;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
+    cursor: grab;
+}
+.drag-handle-window:active {
+  cursor: grabbing; /* This will change the cursor to a grabbing hand when the mouse button is down */
+}
+
+.window-content {
+    padding: 10px;
+    font-size: 12px;
+}
+.exit-button {
+    padding: 2px 4px; /* Smaller padding to reduce overall button size */
+    font-size: 7px; /* Smaller font size for the 'X' */
+    line-height: 1; /* Adjust line height to align the 'X' vertically */
+    width: 10px; /* Specific width for the button */
+    height: 10px; /* Specific height for the button */
+    text-align: center;
+    border: 1px solid #000; /* Presuming a solid border */
+    background-color: #D3D3D3; /* Button background color */
+    color: #000; /* Text color */
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    box-sizing: border-box; /* Include padding and border in the width and height */
+  }
+  
+  .exit-button:hover {
+    background-color: #C0C0C0;
+  }
+  
+  .exit-button:active {
+    background-color: #A9A9A9;
+    transform: translateY(1px);
+  }
+  

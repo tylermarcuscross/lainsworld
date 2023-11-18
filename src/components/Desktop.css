@@ -1,0 +1,13 @@
+.Desktop {
+    position: relative; /* This provides a positioning context for absolutely positioned children */
+    width: 800px;
+    height: 600px;
+    background-image: url('../assets/lainoswater2.jpg');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image within the element */  
+    margin: 0 auto; /* Center the desktop in the middle of the page */
+    display: flex;
+
+} .Desktop > .child {
+    flex: 1; /* Children will grow and shrink based on the Desktop's size */
+}
