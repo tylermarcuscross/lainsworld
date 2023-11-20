@@ -3,8 +3,13 @@ import './Desktop.css';
 import Window from './Window';
 import Taskbar from './Taskbar';
 import Shortcut from './Shortcut';
-import docImage from '../assets/MyDocuments.png';
-import binImage from '../assets/RecyclingBin.png';
+import docImage from '../assets/00025.png';
+import binImage from '../assets/00038.png';
+import dvdImage from '../assets/00020.png';
+import computerImage from '../assets/00021.png';
+import recorderImage from '../assets/00022.png';
+import computerImage2 from '../assets/00023.png';
+
 
 function Desktop() {
 
@@ -13,6 +18,9 @@ function Desktop() {
     document: true,
     welcome: true,
     store: true,
+    dvd: true,
+    computer1: true,
+    recorder: true,
   });
   
   const toggleWindow = (windowName) => {
@@ -34,17 +42,25 @@ function Desktop() {
         onDblClick={() => toggleWindow('recyclingBin')}
       />
       <Shortcut
-        iconImage= {binImage}
-        iconLabel="Recycle Bin"
-        onDblClick={() => toggleWindow('recyclingBin')}
+        iconImage= {dvdImage}
+        iconLabel="DVD Player"
+        onDblClick={() => toggleWindow('dvd')}
       />
-
+      <Shortcut
+        iconImage= {computerImage}
+        iconLabel="Computer Icon <3"
+        onDblClick={() => toggleWindow('computer1')}
+      />
       <Shortcut
         iconImage= {docImage}
         iconLabel="Documents"
         onDblClick={() => toggleWindow('document')}
       />
-
+      <Shortcut
+        iconImage= {recorderImage}
+        iconLabel="Recorder Icon"
+        onDblClick={() => toggleWindow('recorder')}
+      />
       {windows.welcome && (
         <Window title="Welcome Window" x={10} y={50} onClose={() => toggleWindow('welcome')}>
           <p>Hi! This is my website. Welcome!</p>
