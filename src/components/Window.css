@@ -29,8 +29,8 @@
     height: 10px; /* Specific height for the button */
     text-align: center;
     border: 1px solid #000; /* Presuming a solid border */
-    background-color: #D3D3D3; /* Button background color */
-    color: #000; /* Text color */
+    background-color: rgb(176, 91, 84, .8);
+    color: #ffffff; /* Text color */
     cursor: pointer;
     position: absolute;
     top: 1px;

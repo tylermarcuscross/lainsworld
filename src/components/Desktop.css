@@ -2,17 +2,16 @@
     display: flex;
     position: absolute;
     width: 800px;
-    height: 560px;
+    height: 570px;
     background-image: url('../assets/lainswater.png');
     background-size: cover; 
     background-position: center;
-}/* Add styles for DesktopDiv if it's not already styled within Desktop.css */
-.DesktopDiv {
-    /* Assuming Desktop has a fixed size, otherwise you can set width and height here */
+}
+.DesktopDivWithTaskbars {
     display: flex;
     position: absolute;
     width: 800px;
     height: 600px;
     justify-content: center;
     align-items: center;
-  }
+}

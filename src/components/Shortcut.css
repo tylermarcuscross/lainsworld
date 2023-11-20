@@ -22,19 +22,13 @@
 }
 
 .drag-handle-shortcut:active {
-  cursor: grabbing; /* This will change the cursor to a grabbing hand when the mouse button is down */
+  cursor: grabbing; 
 }
 
-/* .shortcut img {
-    width: 40px;
-    height: auto; */
-    /*position: relative;  Position relative to allow absolute positioning of the pseudo-element */
-/* } */
-/* New styles for dragging state */
 .dragging img {
-    opacity: 0.5; /* Dim the image */
-    background-color: rgb(0, 0, 0, .8); /* Black with 50% opacity */
-    pointer-events: none; /* Ignore pointer events */
+    opacity: 0.5; 
+    background-color: rgb(0, 0, 0, .8); 
+    pointer-events: none; 
 }
 
 .dragging p {

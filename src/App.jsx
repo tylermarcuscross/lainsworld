@@ -1,22 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './App.css';
-import DesktopContainer from './components/DesktopContainer.jsx';
+import Desktop from './components/Desktop';
 
 function App() {
-  // const [showVideo, setShowVideo] = useState(false);
-  // const videoRef = useRef(null);
-
-  // const handleVideoShow = () => {
-  //   setShowVideo(true);
-  //   if (videoRef.current) {
-  //     videoRef.current.play();
-  //   }
-  // };
+  
 
   return (
-    <DesktopContainer></DesktopContainer>
+    <div className='Background'>
+      <div className = 'AppDesktop'>
+        <Desktop></Desktop>
+      </div>
+    </div>
   );
 }
 
 export default App;
-

@@ -1,9 +1,0 @@
-.DesktopContainer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 120vh; /* Use viewport height to ensure it covers the full height of the screen */
-    background-image: url(../assets/finallyokay.png);
-    background-position: center;
-  }
