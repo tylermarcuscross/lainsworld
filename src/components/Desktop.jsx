@@ -9,6 +9,7 @@ import dvdImage from '../assets/00020.png';
 import computerImage from '../assets/00021.png';
 import recorderImage from '../assets/00022.png';
 import computerImage2 from '../assets/00023.png';
+import TaskbarTop from './TaskbarTop'
 
 
 function Desktop() {
@@ -30,6 +31,8 @@ function Desktop() {
     }));
   };
   return (
+    <div className="DesktopDiv">
+    <TaskbarTop></TaskbarTop>
     <div className="Desktop">
       {windows.recyclingBin && (
         <Window title="Recycling Bin" x={100} y={200} onClose={() => toggleWindow('recyclingBin')}>
@@ -72,7 +75,8 @@ function Desktop() {
           <p>This is the documents window. You can put anything here :)</p>
         </Window>
       )}
-      <Taskbar/>
+    </div>
+    <Taskbar></Taskbar>
     </div>
   )
 }

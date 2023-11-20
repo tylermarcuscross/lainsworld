@@ -1,14 +1,9 @@
 .DesktopContainer {
-    width: 2100px;
-    height: 1500px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Use viewport height to ensure it covers the full height of the screen */
-    background-image: url(../assets/lainsocean.png);
-}.Desktop {
-    top: 350px; 
-    right: 312px;
-    /* Add other styles such as background, etc. */
-}
+    min-height: 120vh; /* Use viewport height to ensure it covers the full height of the screen */
+    background-image: url(../assets/finallyokay.png);
+    background-position: center;
+  }

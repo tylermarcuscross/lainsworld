@@ -1,0 +1,19 @@
+.taskbartop {
+    display: flex;
+    justify-content: space-between; /* Adjust this according to your design needs */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;  
+  }
+  .taskbartop img {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+  }
+  .toolbartop.mid-toolbar {
+    display: flex;
+    justify-content: space-between; /* Horizontally centers the content */
+  }
+
+  
