@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'JMHTypewriter';
   src: url('./fonts/JMHTypewriter.otf') format('opentype'),
@@ -9,10 +8,10 @@
 
 body {
   font-family: 'JMHTypewriter', sans-serif;
-  image-rendering: pixelated; /* Apply a pixelated effect */
+  image-rendering: pixelated;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  image-rendering: pixelated; /* Apply a pixelated effect */
+  image-rendering: pixelated;
 }

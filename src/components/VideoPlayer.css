@@ -1,3 +1,8 @@
+@media only screen and (max-width: 767px) {
+  .video-container {
+    display: none; /* Hide the video container on mobile devices */
+  }
+}
 .video-container {
     position: absolute;
     display: flex;
