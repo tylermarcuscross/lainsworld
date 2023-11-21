@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Taskbar.css'; // Make sure this path is correct
-import leftToolbarImage from '../assets/toolbar_left-0000.png'; // Path to the left toolbar default image
-import leftToolbarClickedImage from '../assets/toolbar_left_clicked-0000.png'; // Path to the clicked image
-import rightToolbarImage from '../assets/toolbar_right-0000.png'; // Path to the right toolbar default image
-import rightToolbarClickedImage from '../assets/toolbar_right_clicked-0000.png'; // Path to the clicked image
+import leftToolbarImage from '../assets/toolbar/toolbar_left-0000.png'; // Path to the left toolbar default image
+import leftToolbarClickedImage from '../assets/toolbar/toolbar_left_clicked-0000.png'; // Path to the clicked image
+import rightToolbarImage from '../assets/toolbar/toolbar_right-0000.png'; // Path to the right toolbar default image
+import rightToolbarClickedImage from '../assets/toolbar/toolbar_right_clicked-0000.png'; // Path to the clicked image
 import TaskbarCenter from './TaskbarCenter';
 
 const Taskbar = ({onVideoPlay}) => {

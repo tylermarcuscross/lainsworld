@@ -3,11 +3,11 @@ import './Desktop.css';
 import Window from './Window';
 import Taskbar from './Taskbar';
 import Shortcut from './Shortcut';
-import docImage from '../assets/00025.png';
-import binImage from '../assets/00038.png';
-import dvdImage from '../assets/00020.png';
-import computerImage from '../assets/00021.png';
-import recorderImage from '../assets/00022.png';
+import docImage from '../assets/icons/document.png';
+import binImage from '../assets/icons/recycling.png';
+import dvdImage from '../assets/icons/dvd.png';
+import computerImage from '../assets/icons/computer1.png';
+import recorderImage from '../assets/icons/recorder.png';
 import TaskbarTop from './TaskbarTop'
 import VideoPlayer from './VideoPlayer.jsx';
 
