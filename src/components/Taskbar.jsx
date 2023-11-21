@@ -1,4 +1,4 @@
-import useState from 'react';
+import { useState } from 'react';
 import './Taskbar.css'; // Make sure this path is correct
 import leftToolbarImage from '../assets/toolbar/toolbar_left-0000.png'; // Path to the left toolbar default image
 import leftToolbarClickedImage from '../assets/toolbar/toolbar_left_clicked-0000.png'; // Path to the clicked image
