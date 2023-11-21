@@ -38,11 +38,9 @@
     align-items: center; /* Center vertically */
     box-sizing: border-box; /* Include padding and border in the width and height */
   }
-  
   .exit-button:hover {
     background-color: #C0C0C0;
   }
-  
   .exit-button:active {
     background-color: #A9A9A9;
     transform: translateY(1px);

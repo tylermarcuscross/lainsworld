@@ -4,7 +4,6 @@
     bottom: 0;
 }
 .newclock {
-    /* Assuming NewClock will have this class */
     position: absolute; /* This takes the clock out of the normal flow and positions it relative to its nearest positioned ancestor */
     right: 0; /* Align to the right of the taskbarmid div */
     top: 1px;

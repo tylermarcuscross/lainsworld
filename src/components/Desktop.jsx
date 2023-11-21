@@ -9,7 +9,7 @@ import dvdImage from '../assets/icons/dvd.png';
 import computerImage from '../assets/icons/computer1.png';
 import recorderImage from '../assets/icons/recorder.png';
 import TaskbarTop from './TaskbarTop'
-import VideoPlayer from './VideoPlayer.jsx';
+import VideoPlayer from './VideoPlayer';
 
 function Desktop() {
 
