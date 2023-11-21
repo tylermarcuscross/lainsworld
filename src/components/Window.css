@@ -4,7 +4,6 @@
     width: 300px; /* Adjust as needed */
     position: relative;
 }
-
 .drag-handle-window {
     background-color: rgb(99, 86, 141);
     font-size: 12px;
@@ -16,7 +15,6 @@
 .drag-handle-window:active {
   cursor: grabbing; /* This will change the cursor to a grabbing hand when the mouse button is down */
 }
-
 .window-content {
     padding: 10px;
     font-size: 12px;

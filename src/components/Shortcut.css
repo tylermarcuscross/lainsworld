@@ -11,7 +11,6 @@
     width: auto;
     height: 40px;
 }
-
 .shortcut p {
     margin: 0px;
     font-size: 12px;
@@ -20,17 +19,14 @@
     cursor: pointer;
     background-color: rgb(255, 255, 255, .8);
 }
-
 .drag-handle-shortcut:active {
   cursor: grabbing; 
 }
-
 .dragging img {
     opacity: 0.5; 
     background-color: rgb(0, 0, 0, .8); 
     pointer-events: none; 
 }
-
 .dragging p {
     color: white;
     margin: 0px;
