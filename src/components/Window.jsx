@@ -10,7 +10,6 @@ const Window = ({ title, children, x, y, onClose }) => {
     };
     const nodeRef = React.useRef(null);
     const dragHandle = "drag-handle-window";
-
     return (
         <Draggable nodeRef={nodeRef} handle={`.${dragHandle}`} bounds="parent">
             <div ref={nodeRef} className="window" style={windowStyle}>

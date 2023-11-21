@@ -9,6 +9,7 @@ function Shortcut({ iconImage, iconLabel, x, y, onDblClick }) {
   const nodeRef = React.useRef(null);
   const iconClass = isDragging ? "shortcut dragging" : "shortcut";
   const dragHandle = "drag-handle-shortcut";
+
   const shortcutStyle = {
     left: `${x}px`,
     top: `${y}px`,

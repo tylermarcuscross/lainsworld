@@ -9,15 +9,12 @@ import TaskbarCenter from './TaskbarCenter';
 const Taskbar = ({onVideoPlay}) => {
   const [leftImage, setLeftImage] = useState(leftToolbarImage);
   const [rightImage, setRightImage] = useState(rightToolbarImage);
-
   // Handlers for left toolbar
   const handleLeftMouseDown = () => setLeftImage(leftToolbarClickedImage);
   const handleLeftMouseUp = () => setLeftImage(leftToolbarImage);
-
   // Handlers for right toolbar
   const handleRightMouseDown = () => setRightImage(rightToolbarClickedImage);
   const handleRightMouseUp = () => setRightImage(rightToolbarImage);
-
   return (
     <div className="taskbar">
       <div className="toolbar left-toolbar" onClick={onVideoPlay} onMouseDown={handleLeftMouseDown} onMouseUp={handleLeftMouseUp} onMouseLeave={handleLeftMouseUp}>
