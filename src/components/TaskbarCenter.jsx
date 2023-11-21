@@ -3,7 +3,6 @@ import NewClock from './NewClock';
 import './TaskbarCenter.css';
 
 const TaskbarCenter = () => {
-  
   return (
       <div className="taskbarcenter">
           <img className="toolbar-img" src={toolbarMid} alt="Mid Toolbar" draggable="false"/>
