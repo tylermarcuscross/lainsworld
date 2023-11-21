@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import './Desktop.css';
 import Window from './Window';
 import Taskbar from './Taskbar';
