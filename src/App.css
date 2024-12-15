@@ -13,5 +13,4 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    /* No need to set width and height if Desktop has a fixed size */
 }
