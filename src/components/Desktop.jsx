@@ -84,7 +84,7 @@ function Desktop() {
       />
       {windows.welcome && (
         <Window title="Welcome Window" x={268} y={135} onClose={() => toggleWindow('welcome')}>
-          <p>Hi! This is a project to learn React.js! All the art here is made with Stable Diffusion 1.0</p>
+          <p>Hi! This is a project to learn React.js! All the art here is made with Stable Diffusion 1.0. The design is inspired by an abandoned project called LainOS, and the show Serial Experiments Lain.</p>
         </Window>
       )}
 
